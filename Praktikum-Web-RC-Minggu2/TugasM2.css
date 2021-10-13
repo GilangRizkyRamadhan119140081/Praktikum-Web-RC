@@ -1,0 +1,87 @@
+body{
+
+	background-image: url("bgdasar1.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 50;
+  padding: 0;
+}
+
+.navigasi{
+	color: white;
+	box-shadow: -3px -3px 2px #666600;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("BGWEB2.JPG");
+	border-radius: 20px;
+	height: 70px;
+	
+}
+.navbar{
+	display: flex;
+}
+.home,.About,.Contact,.FindMe{
+	text-decoration: none;
+	text-shadow: black;
+	color: white;
+	font-family: evogria;
+	margin-left: 50px;
+	padding: 25px 40px 40px 10px;
+}
+.gabung{
+	display: flex;
+}
+.kiri{
+	color: white;
+	box-shadow: -3px -3px 2px #666600;
+	border-collapse: collapse;
+	background-image: url("BGWEB2.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	width: 5000px;
+	height: 800px;
+
+}
+.kanan{
+	margin-left: 20px;
+	display: flex;
+	color: white;
+	box-shadow: -3px -3px 2px #666600;
+	border-collapse: collapse;
+	background-image: url("BGWEB2.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	width: 1000px;
+	height: 1200px;
+}
+.Berita{
+	display: flex;
+	margin: 100px 100px 5px -100px;
+	color: white;
+	/*box-shadow: -3px -3px 2px #666600;
+	border-collapse: collapse;*/
+	/*background-image: url("BGWEB2.JPG");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	width: 5000px;
+	height: 300px;
+}
+
+th{
+	text-align: left;
+	padding-left: 120px;
+}
+#Pekerjaan{
+	margin-left: 30px;
+	border-radius: 50px;
+}
