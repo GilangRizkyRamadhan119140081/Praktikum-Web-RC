@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.gilangjava1.com</title>
+	<link rel="stylesheet" type="text/css" href="prak2.css">
+<div class="gabung">
+	<div class="kiri">
+		<p>Select Theme</p>
+	</div>
+	<div class="kanan">
+		<select name="warna" id="ubahwarna" onchange="tema()">
+				<option value="White">White</option>
+				<option value="Red">Red</option>
+				<option value="Green">Green</option>
+				<option value="Yellow">Yellow</option>
+				<option value="Black">Black</option>
+				<option value="Blue">Blue</option>
+			</select>
+			<script type="text/javascript">
+				function tema(){
+					var warnaa=document.getElementById('ubahwarna');
+					if(warnaa.value=="White"){
+						document.body.style.background = "White";
+					}
+					else if(warnaa.value=="Red"){
+						document.body.style.background = "Red";
+
+						
+					}
+					else if(warnaa.value=="Green"){
+						document.body.style.background = "Green";
+					}
+					else if(warnaa.value=="Yellow"){
+						document.body.style.background = "Yellow";
+					}
+					else if(warnaa.value=="Black"){
+						document.body.style.background = "Black";
+					}
+					else if(warnaa.value=="Blue"){
+						document.body.style.background = "Blue";
+					}
+				}
+
+			</script>
+	</div>
+</div>
+	<h1>This My Website</h1>
+</head>
+<body>
+<div class="gabung2">
+	<div class="kiri2">
+		<p>Select The weather type today</p>
+	</div>
+	<div class="kanan2">
+		<select name="weather" id="tulisan" onchange="kondisicuaca()">
+				<option value="cerah">Sunny</option>
+				<option value="Hujan">Rainy</option>
+				<option value="Berawan">Berawan</option>
+				<option value="Salju">Snow</option>
+				<option value="Berkabut">Fogging</option>
+			</select>
+				<p id="cuaca" ></p>
+			<script type="text/javascript">
+				function kondisicuaca(){
+					var cuaca=document.getElementById('tulisan');
+					if(cuaca.value=="cerah"){
+						var cuacaa=document.getElementById("cuaca");
+						cuacaa.innerText="Waktu yang Baik untuk Pergi ke Pantai!";
+					}
+					else if(cuaca.value=="Hujan"){
+						var cuacaa=document.getElementById("cuaca");
+						cuacaa.innerText="Jangan Lupa sedia Payung, Diluar sedang Hujan!";
+					}
+					else if(cuaca.value=="Berawan"){
+						var cuacaa=document.getElementById("cuaca");
+						cuacaa.innerText="Sedia selimut dan teh, karena akan Hujan!";
+					}
+					else if(cuaca.value=="Salju"){
+						var cuacaa=document.getElementById("cuaca");
+						cuacaa.innerText="Diluar akan Hujan Salju!";
+					}
+					else if(cuaca.value=="Berkabut"){
+						var cuacaa=document.getElementById("cuaca");
+						cuacaa.innerText="Sebaiknya anda membawa senter untuk menyinari Kabut!";
+					}
+				}
+
+			</script>
+	</div>
+
+</div>
+
+
+	<p>
+        <label>Input number</label>
+        <input type="number" id="angka" placeholder="masukan angka" /><button style="margin-left: 20px;" onclick="faktorial()">Get Factorial</button>
+    </p>
+    <script type="text/javascript">
+			function faktorial(){
+				var angka = document.getElementById("angka");
+
+				  let hasil = 1;
+				  if (angka.value == 0 || angka.value == 1){
+				    hasil = 1;
+				  }else{
+				    for(var i = angka.value; i >= 1; i--){
+				      hasil = hasil * i;
+				    }
+				  }
+				 
+				var result = document.getElementById("hasilfaktorial");
+					result.innerText = "The factorial of " + angka.value + " is " + hasil;
+			}
+				
+		</script>
+
+		<p id="hasilfaktorial"></p>
+</body>
+</html>
+
