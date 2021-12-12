@@ -15,7 +15,13 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Gilang Rizky Ramadhan
 <br>
-NIM   :
+NIM   : 119140081
+
+Bagian Yang di Modifikasi :
+-Mengimport beberapa data pada databse mySQL
+-Memperbaiki struktur file php
+-Mengubah tampilan background pada halaman login
+-Merapihkan kode dengan menambahkan file css dan javascript
  
